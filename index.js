@@ -3,7 +3,6 @@
 var lel;
 for (i=0; i < 10; i++){
   
-  lel += i;
-  
+  lel = i;
+  console.log(lel)
 }
-console.log(lel)
